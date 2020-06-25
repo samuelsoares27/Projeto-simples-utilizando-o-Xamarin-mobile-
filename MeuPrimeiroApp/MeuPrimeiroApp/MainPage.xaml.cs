@@ -16,7 +16,7 @@ namespace MeuPrimeiroApp
         List<String> itens = new List<String>();
         public MainPage()
         {
-            InitializeComponent(); //teste
+            InitializeComponent(); //testeaa
         }
 
         protected void OnClicked(object sender, EventArgs e)
