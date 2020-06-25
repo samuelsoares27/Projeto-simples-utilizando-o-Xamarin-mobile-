@@ -16,7 +16,7 @@ namespace MeuPrimeiroApp
         List<String> itens = new List<String>();
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent(); //teste
         }
 
         protected void OnClicked(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace MeuPrimeiroApp
             }
 
             if ((Nome != "") && (Email != ""))
-            {
+            { 
                              
                 itens.Add(Nome);
 
